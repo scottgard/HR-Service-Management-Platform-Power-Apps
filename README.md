@@ -11,7 +11,7 @@ The goal of this project was to design a realistic internal HR platform similar 
 This project was built as a flagship portfolio piece to demonstrate practical Power Platform development skills, automation design, and user-focused interface design.
 
 ## Demo
-![HR Platform Demo](hr-platform-demo.gif)
+![hr-platform-demo gif](https://github.com/user-attachments/assets/84fc38cc-2075-44a9-ac6d-271fdc920b3c)
 
 ## Why I Built This
 
