@@ -10,6 +10,9 @@ The goal of this project was to design a realistic internal HR platform similar 
 
 This project was built as a flagship portfolio piece to demonstrate practical Power Platform development skills, automation design, and user-focused interface design.
 
+## Demo
+![HR Platform Demo](hr-platform-demo.gif)
+
 ## Why I Built This
 
 In many organisations, HR processes are handled through emails, spreadsheets, or disconnected systems. This project was created to simulate a modern, centralised HR platform that improves visibility, accountability, and efficiency.
