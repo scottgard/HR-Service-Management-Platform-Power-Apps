@@ -1,70 +1,130 @@
 # HR Service Management Platform (Power Apps)
 
-Enterprise HR request management system built using Power Apps, SharePoint, and Power Automate with approval workflows, KPI tracking, and role-based access.
+Enterprise HR request management system built using Microsoft Power Apps, SharePoint Online, Power Automate, and Microsoft 365.
 
-## Overview
+Designed to streamline HR operations through request management, approval workflows, automated task creation, and KPI tracking within a modern enterprise-style application.
 
-This project is an enterprise-style HR Request Management System built using Microsoft Power Platform. The application allows users to submit HR requests, track progress, manage approvals, and automate HR task creation.
+---
 
-The goal of this project was to design a realistic internal HR platform similar to those used in enterprise environments. The solution focuses on improving HR processes, reducing manual work, and providing clear visibility of requests and tasks.
+## 🎬 Demo
 
-This project was built as a flagship portfolio piece to demonstrate practical Power Platform development skills, automation design, and user-focused interface design.
-
-## Demo
 ![hr-platform-demo gif](https://github.com/user-attachments/assets/84fc38cc-2075-44a9-ac6d-271fdc920b3c)
 
-## Why I Built This
+---
 
-In many organisations, HR processes are handled through emails, spreadsheets, or disconnected systems. This project was created to simulate a modern, centralised HR platform that improves visibility, accountability, and efficiency.
+## 🚀 Overview
 
-## The platform provides
+The HR Service Management Platform is a Microsoft Power Platform solution designed to centralise and automate internal HR processes.
 
-- Structured request management
-- Clear approval workflows
-- Automated task creation
-- Real-time dashboard visibility
-- Clean and intuitive user interface
+Built using Power Apps, SharePoint Online, and Power Automate, the application enables employees and HR teams to manage onboarding, offboarding, employee changes, approvals, and operational HR tasks through a responsive enterprise-style interface.
 
-## Features
+The project was designed to simulate a realistic internal HR operations platform similar to systems used within enterprise and public sector environments.
 
-- HR Request submission
-- Onboarding workflow
-- Offboarding workflow
-- Employee change workflow
-- Approval and rejection system
-- Role-based access (Admin / HR)
+---
+
+## ✨ Key Features
+
+### HR Request Management
+- Submit and manage HR requests
+- Track request lifecycle from submission to completion
+- Support for multiple HR workflows:
+  - Onboarding
+  - Offboarding
+  - Employee Changes
+
+### Approval Workflows
+- HR approval and rejection functionality
+- Status tracking across workflow stages
+- Automated progression handling
+- Structured request management process
+
+### KPI Dashboard & Reporting
+- Real-time operational KPI dashboard
+- Open request monitoring
+- Pending approvals tracking
+- Overdue task visibility
+- Dashboard summaries and activity insights
+
+### Search & Filtering
+- Dynamic search functionality
+- Delegation-friendly filtering
+- Multi-filter support:
+  - Status
+  - Priority
+  - Request Type
+  - Assigned Tasks
+
+### Role-Based Experience
+- HR management views
+- User-specific request visibility
+- Role-based functionality for HR/Admin users
+
+### Responsive Enterprise UI
+- Responsive container-based layouts
+- Consistent enterprise-style interface
+- Sidebar navigation system
+- Custom status badges and KPI cards
+- Optimised user experience across screen sizes
+
+---
+
+## 🚀 Technical Highlights
+
+- Built using responsive container-based layouts
+- Designed scalable SharePoint list architecture
+- Implemented approval workflows using Power Automate
+- Created delegation-friendly filtering and search functionality
+- Developed dynamic KPI dashboards
+- Designed reusable UI patterns and consistent styling
+- Implemented role-based request visibility
+- Built structured HR workflow automation processes
+
+---
+
+## 🛠 Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Microsoft Power Apps | Front-end application |
+| SharePoint Online | Data storage & management |
+| Power Automate | Workflow automation |
+| Microsoft 365 | Platform integration |
+| Power Fx | Application logic |
+| Responsive Containers | Dynamic layouts |
+
+---
+
+## ⚡ Power Automate Integration
+
+The solution includes automated workflows built using Power Automate for:
+
+- Approval notifications
+- Email alerts
+- Status updates
 - Automated HR task creation
-- KPI tracking dashboard
-- Status tracking
-- Priority management
-- Request filtering and search
-- Clean enterprise UI design
+- Workflow progression automation
 
-## Technologies Used
+---
 
-- Microsoft Power Apps
-- Microsoft SharePoint Online
-- Microsoft Power Automate
-- Microsoft 365
+## 🏗 System Architecture
 
-## System Architecture
+```text
+User
+    ↓
+Power Apps Frontend
+    ↓
+SharePoint Online Lists
+    ↓
+Power Automate Workflows
+    ↓
+Automated HR Tasks & Notifications
+```
 
-This solution is built using the Microsoft Power Platform:
+---
 
-User  
-↓  
-Power Apps (Frontend)  
-↓  
-SharePoint Lists (Data Storage)  
-↓  
-Power Automate (Workflow Automation)  
-↓  
-HR Tasks Created Automatically
-
-## SharePoint Lists
+## 📂 SharePoint Lists
 
 ### Requests
-
 Main request list containing:
 
 - Request ID
@@ -77,12 +137,10 @@ Main request list containing:
 - Job Title
 - Manager Email
 - Request Description
-- Dates
+- Request Dates
 - Asset Return Required
-- HR Tasks
 
 ### HR Tasks
-
 Automatically created when requests are approved:
 
 - Task Name
@@ -91,30 +149,46 @@ Automatically created when requests are approved:
 - Due Date
 - Linked Request ID
 
-## Workflow
+---
+
+## 🔄 Workflow Process
 
 1. User submits HR request  
 2. Request enters HR Review stage  
 3. HR reviews request  
-4. HR approves or rejects  
-5. If approved, Power Automate creates HR Tasks  
-6. Tasks tracked to completion  
-7. Request marked completed  
+4. HR approves or rejects request  
+5. Power Automate creates HR tasks automatically  
+6. Tasks tracked through completion  
+7. Request marked as completed  
 
-## UI Screens
+---
 
-This solution includes:
+## 📊 Screens Included
 
-- HR Dashboard
-- Request List Page
-- New Request Form
-- Edit Request Form
-- Approval Screen
-- KPI Dashboard
+### HR Dashboard
+Operational overview with KPI reporting and request summaries.
 
-## Screenshots
+### Request List
+Centralised management screen for HR requests and filtering.
+
+### New Request Form
+Dynamic request submission experience.
+
+### Edit Request
+Request management and workflow progression screen.
+
+### Approval Screen
+Approval and rejection interface for HR users.
+
+### KPI Dashboard
+Visual KPI tracking and operational reporting.
+
+---
+
+## 📸 Screenshots
 
 ### Dashboard
+
 <img width="2555" height="1067" alt="image" src="https://github.com/user-attachments/assets/5475b487-f56a-4b61-bf4f-61422de28053" />
 
 ### Requests List
@@ -129,52 +203,75 @@ This solution includes:
 ### Approval Screen
 <img width="2567" height="1500" alt="image" src="https://github.com/user-attachments/assets/86ed567b-2b96-4459-b103-22ad932bfef9" />
 
-## Key Features Demonstrated
+---
 
-- Power Apps UI Design
+## 💼 Business Value
+
+This platform was designed to improve operational visibility, reduce manual HR administration, and streamline employee request workflows within a Microsoft 365 environment.
+
+The project demonstrates:
+- Enterprise application design
+- Workflow automation
+- Business process optimisation
+- Microsoft 365 integration
+- User-focused UI/UX design
+- Operational reporting and KPI tracking
+
+---
+
+## 🔮 Future Improvements
+
+- Manager approval stage
+- SLA tracking
+- Reporting dashboard enhancements
+- Mobile layout optimisation
+- Additional email automation
+- Power BI integration
+- Teams integration
+- Dataverse migration
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Microsoft Power Apps
+- SharePoint Online
+- Power Automate
+- Microsoft 365 Administration
+- Power Fx
+- Workflow Automation
+- Responsive UI Design
 - SharePoint Data Architecture
-- Power Automate Workflow Automation
-- Role-Based Security
-- Enterprise UI Design
-- KPI Dashboard Design
+- Enterprise Application Development
 - Business Process Automation
 
-## Challenges & Learning
+---
 
-During this project, I focused on designing a realistic business workflow and building a clean, user-friendly interface. Key areas of learning included:
+## 📁 Project Structure
 
-- Designing scalable SharePoint data structures
-- Creating dynamic dashboards
-- Building approval workflows using Power Automate
-- Implementing role-based access logic
-- Creating consistent UI components across screens
+```text
+/images
+    dashboard.png
+    requests-list.png
+    new-request-form.png
+    edit-request.png
+    approval-screen.png
+    hr-platform-demo.gif
 
-## Future Improvements
+README.md
+```
 
-- Email Notifications
-- SLA Tracking
-- Manager Approval Stage
-- Reporting Dashboard
-- Mobile Layout Optimisation
+---
 
-## Project Goals
-
-The goal of this project was to design and build a realistic HR Service Management platform similar to enterprise service desk tools.
-
-## This project demonstrates
-
-- Business process design
-- Automation
-- UI/UX design
-- Power Platform development
-- Real-world use case
-
-## Author
+## 👨‍💻 Author
 
 Scott Gardner  
-IT Technical Officer  
-Power Platform & Cloud Learner
+Microsoft 365 & Power Platform Developer
 
-## Project Status
+GitHub: https://github.com/scottgard
 
-Completed — Flagship Portfolio Project
+---
+
+## 📌 Project Status
+
+Actively maintained portfolio project demonstrating Power Platform application development, workflow automation, and enterprise process design.
